@@ -9,5 +9,11 @@
     .place__website{
         flex-direction: row;
         justify-content: flex-start;
+
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__website{
+        margin: 0 16px 0 16px;
     }
 }

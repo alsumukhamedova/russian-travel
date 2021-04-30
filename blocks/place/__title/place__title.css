@@ -4,11 +4,9 @@
     font-size: 72px;
     line-height: 106%;
     margin: 0;
-    padding: 0;
 }
 @media screen and (min-width: 1024px) {
     .place__title{
-        padding: 0;
         font-size: 72px;
         line-height: 106%;
     }
@@ -23,5 +21,6 @@
     .place__title{
         font-size: 32px;
         line-height: 109%;
+        margin-left: 16px;
     }
 }
