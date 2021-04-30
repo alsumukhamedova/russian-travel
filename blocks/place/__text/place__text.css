@@ -1,13 +1,19 @@
 .place__text{
     padding: 0;
+    margin: 0;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .place__text{
         padding-left: 38px;
     }
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 768px){
     .place__text{
         padding: 0 38px 0 16px;
+    }
+}
+@media screen and (max-width: 320px){
+    .place__text{
+        padding-left: 38px;
     }
 }

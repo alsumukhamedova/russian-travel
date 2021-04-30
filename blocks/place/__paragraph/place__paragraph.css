@@ -1,7 +1,7 @@
 .place__paragraph{
-    margin: 26px;
-    width: 484px;
-    height: 145px;
+    margin: 0;
+    max-width: 484px;
+    max-height: 145px;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
