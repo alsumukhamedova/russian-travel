@@ -21,6 +21,9 @@
     .place__title{
         font-size: 32px;
         line-height: 109%;
-        margin:0 16px;
+        margin: 50px 16px 0;
+    }
+    .place__title:first-child{
+        margin-top: 64px;
     }
 }

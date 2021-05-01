@@ -1,6 +1,6 @@
 .body{
     background-color: #2A2C2F;
-    min-width: 320px;
+    max-width: 100%;
     color: #FFFFFF;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     margin: 0 auto;
