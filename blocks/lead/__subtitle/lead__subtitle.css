@@ -1,7 +1,7 @@
 .lead__subtitle {
     color: #FFFFFF;
-    margin: 0 auto;
-    padding-bottom: 64px;
+    margin: 32px auto 0;
+    padding-bottom: 0;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     max-width: 640px;
     font-size: 30px;
@@ -25,7 +25,7 @@
         line-height: 120%;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .lead__title {
         max-width: 288px;
         font-size: 16px;
