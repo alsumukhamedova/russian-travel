@@ -5,9 +5,8 @@
     line-height: 117%;
     text-align: right;
     text-decoration-line: none;
-    margin-right: 48px;
+    margin: 0 48px 0 0;
     color: #FFFFFF;
-
 }
 .header__lang-link:first-child{
     margin-right: 18px;
