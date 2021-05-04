@@ -6,24 +6,39 @@
     text-align: right;
     text-decoration-line: none;
     margin-right: 48px;
+    color: #FFFFFF;
+
+}
+.header__lang-link:first-child{
+    margin-right: 18px;
+}
+.header__lang-link:hover{
+    opacity: 0.8;
 }
 @media screen and (max-width: 1024px) {
     .header__lang-link {
         margin: 46px 48px 0 0;
-        font-size: 24px;
-        line-height: 117%;
+    }
+    .header__lang-link:first-child{
+        margin: 46px 18px 0 0;
     }
 }
 @media screen and (max-width: 768px) {
     .header__lang-link {
         margin: 46px 18px 0 0;
-        font-size: 24px;
-        line-height: 117%;
+    }
+    .header__lang-link:first-child{
+        margin: 46px 24px 0 0;
     }
 }
 @media screen and (max-width: 450px) {
     .header__lang-link {
         margin: 30px 16px 0 0;
+        font-size: 18px;
+        line-height: 111%;
+    }
+    .header__lang-link:first-child{
+        margin: 30px 18px 0 0;
         font-size: 18px;
         line-height: 111%;
     }

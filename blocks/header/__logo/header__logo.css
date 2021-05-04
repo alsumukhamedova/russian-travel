@@ -3,7 +3,9 @@
     max-width: 176px;
     max-height: 52px;
 }
-
+.header__logo:hover{
+    opacity: 0.8;
+}
 @media screen and (max-width: 1024px){
     .header__logo{
         padding: 28px 0 0 48px;
