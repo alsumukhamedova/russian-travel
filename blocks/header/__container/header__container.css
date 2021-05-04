@@ -1,8 +1,13 @@
 .header__container{
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 46px 0 0 0;
     padding: 0;
     list-style: none;
     color: #FFFFFF;
+}
+@media screen and (max-width: 1024px){
+    .header__container{
+        margin: 0;
+    }
 }
